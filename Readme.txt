@@ -15,4 +15,11 @@ Mouse click & move :  Moves camera around
 '=' : decrease ambient light
 'esc' or 'q' or 'Q': exit
 
-Need to have SOIL for image loading and matclpro for matrix operations (both supplied by the professor to the class).  Of course, also need glut and glew to use with C++.
+DEPENDENCIES:
+
+Need to have SOIL for image loading and matclpro for matrix operations (both supplied by the professor to the class). 
+Also need glut and glew to use OpenGL with C++.
+
+This is an object-oriented, small framework for OpenGL.  It allows for new models to be defined and loaded at 
+runtime, rather than be hard-coded into the source.  It uses classes and inheritance to be as reusable as possible within
+the confines of OpenGL.
