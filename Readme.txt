@@ -16,10 +16,10 @@ Mouse click & move :  Moves camera around
 'esc' or 'q' or 'Q': exit
 
 DEPENDENCIES:
-
 Need to have SOIL for image loading and matclpro for matrix operations (both supplied by the professor to the class). 
 Also need glut and glew to use OpenGL with C++.
 
+DESCRIPTION:
 This is an object-oriented, small framework for OpenGL.  It allows for new models to be defined and loaded at 
 runtime, rather than be hard-coded into the source.  It uses classes and inheritance to be as reusable as possible within
 the confines of OpenGL.
